@@ -1,0 +1,18 @@
+     </div>
+    </article>
+<!-- footer section -->
+   <footer class="footer">
+    <div class="footer_copyright">© <a href="http://EustroSoft.org" target="_">EustroSoft.org </a>2019.</div>
+
+<div id="counters">
+<span  class="left">
+</span>
+</div> <!-- id=counters -->
+
+   </footer>
+ </body>
+ <script src="/js/contrib/jquery.js"></script>
+ <script src="/js/index.js"></script>
+ <script src="/js/accordion.js"></script>
+</html>
+

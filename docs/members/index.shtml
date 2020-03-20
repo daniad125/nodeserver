@@ -1,0 +1,65 @@
+<!--#set var="SSIP_VERSION" value="0.1"  -->
+<!--#set var="SSIP_TITLE" value="QR-code template page"  -->
+<!--#include virtual="/cgi-bin/head.ssip" -->
+        <H2>Поставщики информации</h2>
+<p>
+Здесь будет поисковая форма и результирующая таблица со списком найденных
+в системе поставщиков информации, их координатах и текущем статусе, а также
+наличии информации, предоставленной ими для свободного доступа любым пользователям,
+регламенте взаимодействия и т.п. При количистве участников менее 100, это не
+первоочередная задача. На данный момент, все участник это
+<a href="https://en.wikipedia.org/wiki/Early_adopter" target="_">Early Adopter</a>,
+за что мы им благодарны.
+</p>
+<!--
+        <table>
+         <tr>
+          <th>КОД</th>
+          <th>Название</th>
+          <th>сайт</th>
+          <th>отрасль</th>
+          <th>телефон</th>
+          <th>регламент</th>
+          <th>инфо</th>
+          <th>статус</th>
+         </tr>
+         <tr>
+          <td><a href="/members/?m=DOMINATOR">DOMINATOR</a></td>
+          <td>ООО "Доминатор" </td>
+          <td><a href="http://dominator.vip" target="_">http://dominator.vip</a></td>
+          <td>двигатели</td>
+          <td><a href="tel:+7(499)408-45-67">+7(499)408-45-67<a></td>
+          <td>-</td>
+          <td>-</td>
+          <td>active</td>
+         </tr>
+         <tr>
+          <td><a href="/members/?m=EustroSoft">EustroSoft</a></td>
+          <td>ООО "Эустрософт" </td>
+          <td><a href="http://eustrosoft.org">http://eustrosoft.org</a></td>
+          <td>ПО</td>
+          <td><a href="tel:+7(495)0123457">+7(495)0123457</a></td>
+          <td>-</td>
+          <td>-</td>
+          <td>active</td>
+         </tr>
+         <tr>
+          <td><a href="/members/?m=EXAMPLES">EXAMPLES</a></td>
+          <td>ООО "Эустрософт" </td>
+          <td><a href="http://qr.qxyz.ru/gen/examples/">http://qr.qxyz.ru/gen/examples/</a></td>
+          <td>ПО</td>
+          <td><a href="tel:+7(495)0123457">+7(495)0123457</a></td>
+          <td>-</td>
+          <td>-</td>
+          <td>active</td>
+         </tr>
+        </table>
+-->
+<!--#include virtual="/cgi-bin/members.ssip" -->
+        <ul>
+         <li> Сейчас эта таблица строится автоматически, из БД участников системы, имеющий статус active (активный)
+       <li> Далее, по каждой строчке можно будет перейти в карточку участника, за подробной информацией
+       <li> здесь показаны не все поля и колонки, часть из них конфиденциальна.
+       </ul>
+<!--#include virtual="/cgi-bin/footer.ssip" -->
+

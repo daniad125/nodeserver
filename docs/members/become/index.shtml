@@ -1,0 +1,41 @@
+<!--#set var="SSIP_VERSION" value="0.1"  -->
+<!--#set var="SSIP_TITLE" value="QR-code template page"  -->
+<!--#include virtual="/cgi-bin/head.ssip" -->
+			<div class="popup">
+				<div class="popup__content">
+					<div class="popup__close js-popup__close">
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+					<div class="popup__title">Зарегистрироваться в системе (форма пока не работает - звоните!)</div>
+					<div class="popup__description">Чтобы зарегистрироваться достаточно будет:</div>
+					<ol type="a" class="popup__list">
+						<li>позвонить по телефону: <a href="tel:+74950123457">+7(495)0123457</a></li>
+						<li>Или написать нам по адресу: <a href="mailto:sales@eustrosoft.com">sales@eustrosoft.com</a></li>
+						<li>заполнить и отправить форму регистрации на этой странице (пока не работает, поскольку:)
+						<li> - с первыми 100 участниками нужно индивидуально обсудить их потребности и пожелания.
+						<li> И за обсуждение и придумывание решений мы денег не берем. Пока</li>
+					</ol>
+					<form class="form" action="">
+						<div class="form__box">
+							<input type="text" class="form__field" name="name" placeholder="Имя*" required>
+						</div>
+						<div class="form__box">
+							<input type="text" class="form__field" name="company" placeholder="Организация">
+						</div>
+						<div class="form__box">
+							<input type="text" class="form__field" name="phone" placeholder="Телефон">
+						</div>
+						<div class="form__box">
+							<input type="mail" class="form__field" name="mail" placeholder="Почта">
+						</div>
+						<div class="form__box">
+							<textarea class="form__field form__field_textarea" name="mess" placeholder="Сообщение"></textarea>
+						</div>
+						<div class="form__box">
+							<button class="btn">Отправить</button>
+						</div>
+					</form>
+<!--#include virtual="/cgi-bin/footer.ssip" -->

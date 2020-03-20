@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /help/
+Disallow: /cgi-bin/
+Disallow: /cgi/
+Disallow: /cat.html
+Disallow: /*.shtml

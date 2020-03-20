@@ -1,0 +1,5 @@
+<!--#set var="SSIP_VERSION" value="0.1"  -->
+<!--#set var="SSIP_TITLE" value="QR-code routing service"  -->
+<!--#include virtual="/cgi-bin/head.ssip" -->
+<!--#include virtual="/help/whiterabbit/whiterabbit.ihtml" -->
+<!--#include virtual="/cgi-bin/footer.ssip" -->

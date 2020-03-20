@@ -1,0 +1,51 @@
+<!--#set var="SSIP_VERSION" value="0.1"  -->
+<!--#set var="SSIP_TITLE" value="QR-code image generator"  -->
+<!--#include virtual="/cgi-bin/head.ssip" -->
+<H1>Генераторы QR-кодов, для отладочных целей</h2>
+
+<H2>Генератор на базе CGI (/cgi-bin/qrget.cgi)</h2>
+<form action="/cgi-bin/qrget.cgi" method="GET">
+q(код)=<input type="text" id="q" name="q" value="100D001" size="16">
+<br>
+p(PIN)=<input type="text" id="p" name="p" value="" size="16">
+<br>
+url(опционально)=<input type="text" id="url" name="url" value="" size="64">
+<br>
+<input type="submit" name="Send" value="Отправить (send)">
+</form>
+
+<H2>Генератор на базе CGI (/cgi-bin/qrget.cgi) - любой текст</h2>
+
+<form action="/cgi-bin/qrget.cgi" method="GET">
+URL: <input type="text" id="txt" name="txt" value="http://qr.qxyz.ru?q=fff" size="64">
+<br>
+<input type="submit" name="Send" value="Отправить (send)">
+</form>
+
+
+<H2>JS Генератор (qrcode.js)</h2>
+
+<script src="/js/contrib/qrcode.js"></script>
+<input type="text" id="text1" value="http://qr.qxyz.ru" size="64">
+<div id="qrcode">
+</div>
+<script>
+  var qrcode = new QRCode(document.getElementById("qrcode"), {
+	width : 100,
+	height : 100
+});
+
+function makeCode () {		
+	var elText = document.getElementById("text1");
+	
+	if (!elText.value) {
+		alert("Input a text");
+		elText.focus();
+		return;
+	}
+	
+	qrcode.makeCode(elText.value);
+}
+</script>
+<button onclick="makeCode()">Make qrcode</button>
+<!--#include virtual="/cgi-bin/footer.ssip" -->

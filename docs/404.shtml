@@ -1,0 +1,11 @@
+<!--#set var="JAM_TITLE" value="Программа мероприятия" -->
+<!--#include virtual="/header.ihtml" -->
+<h1>
+OOooops... 404 - страница не найдена...
+</h1>
+<br>
+<h1>
+Попробуйте посмотреть <a href="/sitemap/">другую</a>, или просто:
+</h1>
+
+<!--#include virtual="/footer.ihtml" -->

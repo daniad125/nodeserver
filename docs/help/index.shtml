@@ -1,0 +1,18 @@
+<!--#set var="SSIP_VERSION" value="0.1"  -->
+<!--#set var="SSIP_TITLE" value="Documentation of QR.qxyz.ru"  -->
+<!--#include virtual="/cgi-bin/head.ssip" -->
+     <div class="content">
+        <H2>Справочное руководство по системе QR.qxyz.ru.</h2>
+	<p>Здесь надо подробно описать правила и принципы функционирования системы </p>
+	<p>Кто возьмется?</p>
+	<p>Ладно, сам сделал:</p>
+<ul>
+<li><a href="doc/qr.qxyz.ru-doc.html">html</a>
+<li><a href="doc/qr.qxyz.ru-doc.pdf">pdf</a>
+<li><a href="doc/qr.qxyz.ru-doc.txt">txt</a>
+<li><a href="doc/qr.qxyz.ru-doc.odt">odt</a> (это оригинал)
+</ul>
+	<p>Следующая задача - разложить по полочкам и папочкам, а лучше - сделать wiki, раз. сделать коммерческое предложение на одну страницу и страницу-лендинг с блекджеком и ... это два. Кто возьмется?</p>
+     </div>
+<!--#include virtual="/cgi-bin/footer.ssip" -->
+
